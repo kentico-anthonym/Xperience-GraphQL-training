@@ -1,11 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using GraphQL.Validation;
 using System.Threading.Tasks;
 
-namespace DG-GraphQL
+namespace DGModels
 {
-    public class InputValidationRule
-{
-}
+    public class InputValidationRule : IValidationRule
+    {
+        public Task<INodeVisitor> ValidateAsync(ValidationContext context)
+        {
+            return Task.FromResult((INodeVisitor)new EnterLeaveListener(_ => { }));
+        }
+    }
 }

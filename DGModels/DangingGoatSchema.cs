@@ -1,11 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GraphQL.Types;
+using GraphQL.Utilities;
+using System;
 
-namespace DG-GraphQL
+namespace DGModels
 {
-    public class DangingGoatSchema
-{
-}
+    public class DancingGoatSchema : Schema
+    {
+        public DancingGoatSchema(IServiceProvider provider)
+            : base(provider)
+        {
+            Query = provider.GetRequiredService<DancingGoatQuery>();
+            Mutation = provider.GetRequiredService<DancingGoatMutation>();
+        }
+    }
 }

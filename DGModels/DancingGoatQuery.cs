@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GraphQL.Types;
 
-namespace DG-GraphQL
+namespace DGModels
 {
-    public class DancingGoatQuery
-{
-}
+    public class DancingGoatQuery : ObjectGraphType<object>
+    {
+        public DancingGoatQuery(DancingGoatData data)
+        {
+        }
+            
+    }
 }

@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GraphQL.Types;
 
-namespace DG-GraphQL
+namespace DGModels
 {
-    public class DancingGoatMutation
-{
-}
+    public class DancingGoatMutation : ObjectGraphType
+    {
+        public DancingGoatMutation(DancingGoatData data)
+        {
+            Name = "Mutation";
+        }
+    }
 }

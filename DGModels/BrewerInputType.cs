@@ -1,11 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GraphQL.Types;
+using DGModels.Types;
 
-namespace DG-GraphQL
+namespace DGModels
 {
-    public class BrewerInputType
-{
-}
+    public class BrewerInputType : InputObjectGraphType<BrewerProduct>
+    {
+        public BrewerInputType()
+        {
+            Name = "BrewerInput";
+            Field(x => x.Id);
+            Field(x => x.Name);
+            Field(x => x.DishwasherSafe);
+        }
+    }
 }

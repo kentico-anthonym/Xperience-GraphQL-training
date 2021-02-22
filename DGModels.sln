@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGModels", "DGModels\DGModels.csproj", "{9771DC60-00BD-40E5-83F9-3FA4629627B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DG-GraphQL", "DG-GraphQL\DG-GraphQL.csproj", "{C8F524FF-40A6-4C2B-B77D-12891F5A535C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DG_GraphQL", "DG-GraphQL\DG_GraphQL.csproj", "{C8F524FF-40A6-4C2B-B77D-12891F5A535C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
