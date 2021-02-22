@@ -7,11 +7,6 @@
 
   <ItemGroup>
     <None Remove="app.config.template" />
-    <None Remove="Types\.keep" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Types\.keep" />
   </ItemGroup>
 
   <ItemGroup>
