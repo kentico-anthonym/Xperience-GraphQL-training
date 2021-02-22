@@ -1,4 +1,4 @@
-﻿using CMS.DocumentEngine.Types.DancingGoatMvc;
+﻿using CMS.DocumentEngine.Types.DancingGoatCore;
 using DGModels.Types;
 using System.Collections.Generic;
 using System.Linq;

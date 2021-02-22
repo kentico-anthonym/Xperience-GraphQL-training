@@ -8,8 +8,9 @@ namespace DancingGraphQL
     {
         public static void Main(string[] args)
         {
-            CMSApplication.Init();
-            CreateWebHostBuilder(args).Build().RunAsync();
+            var result = CMSApplication.Init();
+            
+            CreateWebHostBuilder(args).Build().Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
