@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Generated\" />
-    <Folder Include="Types\" />
+    <Folder Include="Types\Generated\" />
   </ItemGroup>
 
   <ItemGroup>
