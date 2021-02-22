@@ -2,7 +2,7 @@
 using DGModels.Types;
 using GraphQL.Types;
 
-namespace DG_GraphQL.Types
+namespace DGModels.Types
 {
     public class BrewerModel : ObjectGraphType<BrewerProduct>
     {
